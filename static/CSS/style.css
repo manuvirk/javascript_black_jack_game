@@ -1,8 +1,8 @@
 .container-1 {
-    width: 74%;
+    width: 75%;
     text-align: center;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .flex-blackjack-row1,
@@ -10,7 +10,7 @@
 .flex-blackjack-row3 {
     display: flex;
     border: 1px solid black;
-    padding: 6px;
+    padding: 5px;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
