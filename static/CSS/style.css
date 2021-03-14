@@ -2,7 +2,7 @@
     width: 74%;
     text-align: center;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .flex-blackjack-row1,
@@ -22,7 +22,7 @@
     color: white;
 }
 .flex-blackjack-row1 div {
-    border: 1px solid black;
+    border: 2px solid black;
     height: 360px;
     flex: 1;
 
