@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="#">
   <title>Blackjack</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
-<link rel="stylesheet" href="./static/CSS/style.css">
+  <link rel="stylesheet" href="./static/CSS/style.css">
 </head>
+
 <body>
-  <div class = "container-1">
-  <div> <h2 id = "black_head">Challenge 5: Blackjack</h1>
-    <h3><span id="blackjack-ressult">
-     Let's play</h3> </span>
-  </div>
-  <div class = "flex-blackjack-row1" >
-    <div id = "your-box">
-     <h2>You: <span id="your-black-jack-result">0</span></h2>
+  <div class="container-1">
+    <div>
+      <h2 id="black_head">Blackjack Game</h1>
+        <h3><span id="blackjack-ressult">
+            Let's play</h3> </span>
     </div>
-    <div id ="dealer-box">
-      <h2>Dealer: <span id="dealer-blackjack-result">0</span></h2>
+    <div class="flex-blackjack-row1">
+      <div id="your-box">
+        <h2>You: <span id="your-black-jack-result">0</span></h2>
+      </div>
+      <div id="dealer-box">
+        <h2>Dealer: <span id="dealer-blackjack-result">0</span></h2>
+      </div>
     </div>
-</div>
-  <div class = "flex-blackjack-row2" >
-   <div>
-     <button class="btn-lg btn btn-primary mr-2" id= "blackjackhit-button" > Hit</button>
-    <button class= "btn-lg btn btn-warning mr-2" id = "blackjackstand-button"> Stand</button>
-    <button class="btn-lg btn btn-danger mr-2" id = "blackjackdeal-button"> Deal</button>
+    <div class="flex-blackjack-row2">
+      <div>
+        <button class="btn-lg btn btn-primary mr-2" id="blackjackhit-button"> Hit</button>
+        <button class="btn-lg btn btn-warning mr-2" id="blackjackstand-button"> Stand</button>
+        <button class="btn-lg btn btn-danger mr-2" id="blackjackdeal-button"> Deal</button>
+      </div>
     </div>
-   </div>
-   <div class = "flex-blackjack-row3">
-    <table >
-      <tr>
-        <th>Wins</th>
-        <th>Losses</th>
-        <th>Draws</th>
-      </tr>
-      <tr>
-        <td><span id ="wins">0</span></td>
+    <div class="flex-blackjack-row3">
+      <table>
+        <tr>
+          <th>Wins</th>
+          <th>Losses</th>
+          <th>Draws</th>
+        </tr>
+        <tr>
+          <td><span id="wins">0</span></td>
 
-        <td><span id="losses">0</span></td>
-        <td><span id="draws">0</span></td>
-      </tr>
-    </table>
+          <td><span id="losses">0</span></td>
+          <td><span id="draws">0</span></td>
+        </tr>
+      </table>
 
-   </div>
+    </div>
 
   </div>
   <script src="./static/js/script.js"></script>
 </body>
+
 </html>
